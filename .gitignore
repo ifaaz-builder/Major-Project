@@ -1,0 +1,40 @@
+﻿# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.output/
+build/
+coverage/
+
+# Local development state
+.tanstack/
+.wrangler/
+.gradle-user/
+.gradle/
+android/.gradle/
+android/local.properties
+
+# Android build outputs
+android/app/build/
+android/build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
